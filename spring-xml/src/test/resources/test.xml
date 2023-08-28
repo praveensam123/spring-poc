@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<XmlResponse>
+<subject>
     <id>1</id>
     <name>maths</name>
     <description>Mathematics</description>
-</XmlResponse>
+</subject>
