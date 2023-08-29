@@ -22,17 +22,25 @@ repositories {
 }
 
 dependencies {
+
+	// Spring Boot Framework
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-aop'
+
+	// JAX RS
 	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-xml'
-	implementation'javax.xml.bind:jaxb-api:2.3.1'
+	implementation 'javax.xml.bind:jaxb-api:2.4.0-b180830.0359'
 
-
+	// Lombok
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	// Dev Tools
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
+	// Testing
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
 }
 
 tasks.named('test') {
